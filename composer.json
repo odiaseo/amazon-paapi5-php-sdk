@@ -1,0 +1,30 @@
+{
+  "name": "synergy/amazon-paapi5-php-sdk",
+  "description": "Amazon API Service",
+  "keywords": [
+    "amazon",
+    "php",
+    "sdk",
+    "api"
+  ],
+  "homepage": "https://webservices.amazon.com/paapi5/documentation/index.html",
+  "license": "Apache-2.0",
+  "authors": [
+    {
+      "name": "Product Advertising API Team"
+    }
+  ],
+  "require": {
+    "php": ">=7.4",
+    "guzzlehttp/guzzle": "^6.5"
+  },
+  "autoload": {
+    "psr-4": {
+      "Amazon\\ProductAdvertisingAPI\\v1\\": "src/"
+    }
+  },
+  "minimum-stability": "stable",
+  "config": {
+    "sort-packages": true
+  }
+}
